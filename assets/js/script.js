@@ -14,11 +14,13 @@ const scissorDiv = document.getElementById("scissor");
 function getComputerChoice() {
     const choices = ['rock', 'paper', 'scissor'];
     const randomNum = Math.floor(Math.random() * 3);
+    return choices [randomNum];
 }
-getComputerChoice()
 
 function game(userChoice) {
-
+    const computerChoice = getComputerChoice();
+    console.log("user choice =>" + userChoice);
+    console.log("computer choice =>" + computerChoice);
 }
 
 main();
