@@ -57,3 +57,18 @@ header > h1 {
 .result > p {
     text-align: center;
 }
+
+.choice {
+    display: inline-block;
+    margin: 40px 0;
+}
+
+.choices {
+    text-align: center;
+    margin: 0 25px;
+    padding: 10px;
+}
+
+.choice:hover {
+    cursor: pointer;
+}
