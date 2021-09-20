@@ -22,7 +22,7 @@ function win(user, computer){
     userScoreSpan.innerHTML = userScore;
     computerScoreSpan.innerHTML =computerScore;
     resultDiv.innerHTML = user + " beats " + computer +" You Win!"
-}
+} 
 
 function lose(){
 
