@@ -17,11 +17,17 @@ function getComputerChoice() {
     return choices [randomNum];
 }
 
+function word (letter) {
+    if (letter === "rock") return "Rock";
+    if (letter === "paper") return "Paper";
+    return "Scissor";
+}
+
 function win(user, computer){
     userScore++;
     userScoreSpan.innerHTML = userScore;
     computerScoreSpan.innerHTML =computerScore;
-    resultDiv.innerHTML = user + " beats " + computer +" You Win!"
+    resultDiv.innerHTML = word(user) + " beats " + word(computer) +" You Win!"
 } 
 
 function lose(){
