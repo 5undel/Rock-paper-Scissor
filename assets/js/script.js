@@ -27,16 +27,21 @@ function win(user, computer){
     userScore++;
     userScoreSpan.innerHTML = userScore;
     computerScoreSpan.innerHTML =computerScore;
-    resultDiv.innerHTML = word(user) + " beats " + word(computer) +" You Win!"
+    resultDiv.innerHTML = word(user) + " beats " + word(computer) +". You Win!"
 } 
 
-function lose(){
+function lose(user, computer){
+    computerScore++;
+    userScoreSpan.innerHTML = userScore;
+    computerScoreSpan.innerHTML = computerScore;
+    resultDiv.innerHTML = word(user) + " loses to " + word(computer) +". You Lost..."
+} 
 
-}
-
-function draw() {
-
-}
+function draw(user, computer){
+    userScoreSpan.innerHTML = userScore;
+    computerScoreSpan.innerHTML =computerScore;
+    resultDiv.innerHTML = word(user) + " freinds " + word(computer) +". It´s A Draw"
+} 
 
 function game(userChoice) {
     const computerChoice = getComputerChoice();
