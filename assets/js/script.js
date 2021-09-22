@@ -11,18 +11,28 @@ const rockDiv = document.getElementById("rock");
 const paperDiv = document.getElementById("paper");
 const scissorDiv = document.getElementById("scissor");
 
+/**
+ * 
+ * computer random choice code
+ */
 function getComputerChoice() {
     const choices = ['rock', 'paper', 'scissor'];
     const randomNum = Math.floor(Math.random() * 3);
     return choices [randomNum];
 }
 
+/**
+ * change the first latter to uppercase
+ */
 function word (letter) {
     if (letter === "rock") return "Rock";
     if (letter === "paper") return "Paper";
     return "Scissor";
 }
 
+/**
+ * win function 
+ */
 function win(user, computer){
     userScore++;
     userScoreSpan.innerHTML = userScore;
@@ -30,6 +40,9 @@ function win(user, computer){
     resultDiv.innerHTML = word(user) + " beats " + word(computer) +". You Win!"
 } 
 
+/**
+ * lose function 
+ */
 function lose(user, computer){
     computerScore++;
     userScoreSpan.innerHTML = userScore;
@@ -37,12 +50,18 @@ function lose(user, computer){
     resultDiv.innerHTML = word(user) + " loses to " + word(computer) +". You Lost..."
 } 
 
+/**
+ * draw function 
+ */
 function draw(user, computer){
     userScoreSpan.innerHTML = userScore;
     computerScoreSpan.innerHTML =computerScore;
     resultDiv.innerHTML = word(user) + " freinds " + word(computer) +". It´s A Draw"
 } 
 
+/**
+ * game function  
+ */
 function game(userChoice) {
     const computerChoice = getComputerChoice();
     switch (userChoice + computerChoice) {
