@@ -60,7 +60,11 @@ header > h1 {
 
 .choice {
     display: inline-block;
-    margin: 40px 0;
+    margin: 0 20px;
+    padding: 60px;
+    border: 3px solid whitesmoke;
+    border-radius: 50%;
+    transition: all 0.4s;
 }
 
 .choices {
@@ -71,6 +75,8 @@ header > h1 {
 
 .choice:hover {
     cursor: pointer;
+    transform: scale(0.9);
+    border-color: red;
 }
 
 footer {
