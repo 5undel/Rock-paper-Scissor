@@ -89,6 +89,30 @@ header > h1 {
     transform: scale(0.9);
     border-color: orange;
 }
+
+.reset {
+    text-align: center;
+}
+
+.reset button {
+    font-size: 40px;
+    background-color: #004bad;
+    border-color:whitesmoke;
+    color: whitesmoke;
+    padding-left: 4px;
+    padding-right: 4px;
+    transition: all 0.4s;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    transform: scale(0.9);
+    background-color: red;
+    color: whitesmoke;
+}
+
+
 /*footer and rules*/
 footer {
     position: fixed;
