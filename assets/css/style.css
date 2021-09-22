@@ -1,3 +1,4 @@
+/*style for page*/
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +9,7 @@ body{
     background-color: rgba(0,74,173,255);
     font-family: 'Times New Roman', Times, serif;
 }
+/*header style*/
 header {
     background-color: whitesmoke;
     padding: 15px;
@@ -18,7 +20,7 @@ header > h1 {
     color: rgba(0, 74, 173, 255);
     text-align: center;
 }
-
+/*score area style*/
 .score {
     margin: 20px auto;
     border-radius: 4px;
@@ -26,14 +28,14 @@ header > h1 {
     padding: 15px 20px;
     border: 3px solid whitesmoke;
     width: 200px;
-    color: whitesmoke;
+    color: black;
     font-size: 50px;
     position: relative;
 }
 
 .place {
     background-color: rgb(189,207,233);
-    color: whitesmoke;
+    color: black;
     font-size: 15px;
     padding: 2px 10px;
 }
@@ -50,6 +52,7 @@ header > h1 {
     position: absolute;
 }
 
+/*style for the result*/
 .result {
     font-size: 30px;
     color: whitesmoke;
@@ -59,6 +62,7 @@ header > h1 {
     text-align: center;
 }
 
+/*style for the game choice area*/
 .choice {
     display: inline-block;
     margin: 3% 3%;
@@ -66,12 +70,18 @@ header > h1 {
     border: 9px solid whitesmoke;
     border-radius: 50%;
     transition: all 0.4s;
+    background-color: #004bad;
+}
+
+.choice img {
+    border-radius: 50%;
 }
 
 .choices {
     text-align: center;
     margin: 0 2%;
     padding: 2%;
+    padding-bottom: 80px;
 }
 
 .choice:hover {
@@ -79,10 +89,9 @@ header > h1 {
     transform: scale(0.9);
     border-color: orange;
 }
-
+/*footer and rules*/
 footer {
     position: fixed;
-    left: 0;
     bottom: 0;
     padding: 15px;
     width: 100%;
