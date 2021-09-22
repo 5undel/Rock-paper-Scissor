@@ -11,10 +11,11 @@ body{
 header {
     background-color: whitesmoke;
     padding: 15px;
+    width: 100%;
 }
 
 header > h1 {
-    color: rgba(0,74,173,255);
+    color: rgba(0, 74, 173, 255);
     text-align: center;
 }
 
@@ -60,23 +61,23 @@ header > h1 {
 
 .choice {
     display: inline-block;
-    margin: 0 20px;
-    padding: 60px;
-    border: 3px solid whitesmoke;
+    margin: 3% 3%;
+    padding: 4%;
+    border: 9px solid whitesmoke;
     border-radius: 50%;
     transition: all 0.4s;
 }
 
 .choices {
     text-align: center;
-    margin: 0 25px;
-    padding: 10px;
+    margin: 0 2%;
+    padding: 2%;
 }
 
 .choice:hover {
     cursor: pointer;
     transform: scale(0.9);
-    border-color: red;
+    border-color: orange;
 }
 
 footer {
@@ -93,3 +94,4 @@ footer > p {
     text-align: center;
     font-size: 20px;
 }
+

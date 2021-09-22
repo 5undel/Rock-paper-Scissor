@@ -11,5 +11,7 @@ __Features__
     - The scoreboard has a clean look at the top center whit a good contrast for the text color and the background color. 
 
 - Game option
-    - The game options are easy to choose from. And when hover over the size change to smaller and the border gets red to make it easeyer fot the user to see witch move they choos.
-    -
+    - The game options are easy to choose from. And when hover over the size change to smaller and the border gets orange to make it easeyer fot the user to see witch move they choos.
+     ![image](assets/images/choice-area.png)
+
+    - 
