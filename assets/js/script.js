@@ -11,7 +11,7 @@ const resultDiv = document.querySelector(".result > p");
 const rockDiv = document.getElementById("rock");
 const paperDiv = document.getElementById("paper");
 const scissorDiv = document.getElementById("scissor");
-let resetSection = document.getElementsByTagName("reset")
+const resetSection = document.getElementsByTagName("reset")
 
 /**
  * 
@@ -86,11 +86,26 @@ function game(userChoice) {
 }
 
 
-// When the user clicks on <div>, open the popup
+/**
+ * open the popup
+*/
 function myFunction() {
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
   }
+/**
+ * reset game
+ */
+function reset() {
+    userScore = 0;
+    computerScore = 0;
+    
+    scoreDiv.innerHTML = '';
+
+    rockDiv.removeAttribute("disabled");
+    paperDiv.removeAttribute("disabled");
+    scissorDiv.removeAttribute("disabled");
+}
 
 main();
 
