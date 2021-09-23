@@ -12,6 +12,6 @@ __Features__
 
 - Game option
     - The game options are easy to choose from. And when hover over the size change to smaller and the border gets orange to make it easeyer fot the user to see witch move they choos.
-     ![image](assets/images/choice-area.png)
+     ![image](assets/document/rockpaperscissor.png)
 
-    - 
+

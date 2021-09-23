@@ -58,7 +58,7 @@ function lose(user, computer){
 function draw(user, computer){
     userScoreSpan.innerHTML = userScore;
     computerScoreSpan.innerHTML =computerScore;
-    resultDiv.innerHTML = word(user) + " freinds " + word(computer) +". It´s A Draw"
+    resultDiv.innerHTML = word(user) + " friends " + word(computer) +". It´s A Draw"
 } 
 
 /**
@@ -84,6 +84,7 @@ function game(userChoice) {
             break;
     }
 }
+
 
 // When the user clicks on <div>, open the popup
 function myFunction() {
