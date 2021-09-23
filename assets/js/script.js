@@ -1,3 +1,4 @@
+/* jshint esversion: 8 */
 /**
  * cashing the Dom for future use
  */
@@ -10,6 +11,7 @@ const resultDiv = document.querySelector(".result > p");
 const rockDiv = document.getElementById("rock");
 const paperDiv = document.getElementById("paper");
 const scissorDiv = document.getElementById("scissor");
+let resetSection = document.getElementsByTagName("reset")
 
 /**
  * 
@@ -83,6 +85,12 @@ function game(userChoice) {
     }
 }
 
+// When the user clicks on <div>, open the popup
+function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+  }
+
 main();
 
 function main() {
@@ -98,4 +106,6 @@ function main() {
     scissorDiv.addEventListener('click', function(){
         game("scissor")
     })
+
+   
 }

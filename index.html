@@ -11,6 +11,9 @@
     <!-- header for game-->
     <header>
         <h1>Rock Paper Scissor</h1>
+        <div class="popup" onclick="myFunction()">RULES
+            <span class="popuptext" id="myPopup">Scissor cut Paper. Rock trump Scissor. Paper cover Rock.</span>
+          </div>
     </header>
 <!-- game score area-->
     <section class="score">
@@ -35,12 +38,12 @@
         </figure>
     </section>
 <!--reset buttom -->
-    <section class="reset">
-        <button>Restart</button>
+    <section class="resets">
+        <button onclick="reset()">Restart</button>
     </section>
 <!-- footer and rules-->
     <footer>
-        <p>Scissor cut Paper. Rock trump Scissor. Paper cover Rock</p>
+            <a href="https://github.com/5undel" target="_blank"><img class="github-link" src="assets/images/github.png" alt="github"></a>
     </footer>
 <script src="assets/js/script.js"></script>
 </body>
