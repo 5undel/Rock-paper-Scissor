@@ -33,8 +33,10 @@ __Features__
 
 - Footer
  - In the footer is a link that the user can click to open a new tab to the creator github.
+
  ![image](document/link.png)
  
+
 # DESIGN
 - Appearance
   - The site has a clean look with a white background color.
@@ -49,6 +51,9 @@ __Features__
 - CSS 
   - No errors were found when passing through the validator 
   ![image](document/css-vali-rps.png)
+
+- Lighthosue
+  ![image](document/lighthouse-test.png)
 
 
 # Wireframe

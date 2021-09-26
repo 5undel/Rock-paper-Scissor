@@ -1,8 +1,8 @@
 /* jshint esversion: 8 */
 
 //cashing the Dom for future use
-let userScore = 0;
-let computerScore = 0;
+userScore = 0;
+computerScore = 0;
 const userScoreSpan = document.getElementById("user-score");
 const computerScoreSpan = document.getElementById("computer-score");
 const resultDiv = document.querySelector(".result > p");
@@ -70,6 +70,8 @@ function game(userChoice) {
     }
 }
 //restart score
+document.getElementById("restart").addEventListener("click", resetScores);
+
 function resetScores() {
     document.getElementById('user-score').innerText = 0;  
     document.getElementById('computer-score').innerText = 0;
