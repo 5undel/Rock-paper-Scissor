@@ -1,5 +1,5 @@
 # Rock Paper Scissor 
-
+This website has been created for those looking to play the timeless classic game of rock, paper, scissors. The game is a pure game of chance and is easy to grasp. For those who need further information rules are provided in the index page.
 
 __Features__
 
@@ -21,4 +21,18 @@ __Features__
  - In the footer is a link that the user can click to open a new tab to the creator github.
  ![image](document/link.png)
  
+### DESIGN
+- Appearance
+  - The site has a clean look with a white background color.
+- Print
+  - The font-text is Times New Roman for a clean look and easy to read.
+
+### TEST
+- HTML
+  - No errors were found when passing through the validator 
+  - Two warning where found and will be left not to fix.
+  ![image](document/html-vali-rps.png)
+- CSS 
+  - No errors were found when passing through the validator 
+  ![image](document/css-vali-rps.png)
 
