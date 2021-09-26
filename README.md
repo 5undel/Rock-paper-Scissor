@@ -1,6 +1,11 @@
 # Rock Paper Scissor 
 This website has been created for those looking to play the timeless classic game of rock, paper, scissors. The game is a pure game of chance and is easy to grasp. For those who need further information rules are provided in the index page.
 
+# UX
+ - As a first-time user on the page, I want to be able to easily play the game.
+ - I want to easily understand the game and rules.
+
+
 __Features__
 
  - header
@@ -16,6 +21,8 @@ __Features__
     - The game options are easy to choose from. And when hover over the size change to smaller and the border gets orange to make it easeyer fot the user to see witch move they choos.
     - The winner is shown over the game options with a easy to read text that shows if the player is the winner or the computer, or if it is a draw.
      ![image](document/r-p-s.png)
+
+    - the user can easely restart the game whit the restar button.
 
 - Footer
  - In the footer is a link that the user can click to open a new tab to the creator github.
@@ -35,5 +42,13 @@ __Features__
 - CSS 
   - No errors were found when passing through the validator 
   ![image](document/css-vali-rps.png)
-  
+
+
+### Wireframe
+
+- desktop
+    ![image](document/rps-w.png)
+
+- mobile
+    ![image](document/m-rps-w.png)
 

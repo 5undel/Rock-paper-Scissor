@@ -10,6 +10,7 @@ const rockDiv = document.getElementById("rock");
 const paperDiv = document.getElementById("paper");
 const scissorDiv = document.getElementById("scissor");
 
+
 //computer random choice code
 function getComputerChoice() {
     const choices = ['rock', 'paper', 'scissor'];
