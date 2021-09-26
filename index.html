@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,14 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Rock Paper Scissor</title>
 </head>
+
 <body>
-    <!-- header for game-->
+    <!-- header for game and rules-->
     <header>
         <h1>Rock Paper Scissor</h1>
-        <div class="popup" onclick="pupupSection()">RULES
-            <span class="popuptext" id="myPopup">Scissor cut Paper. Rock trump Scissor. Paper cover Rock.</span>
-          </div>
+
     </header>
-<!-- game score area-->
+    <!-- game score area-->
     <section class="score">
         <div id="user-place" class="place">User</div>
         <div id="computer-place" class="place">Computer</div>
@@ -25,7 +25,7 @@
     <div class="result">
         <p>Make Your Move</p>
     </div>
-<!-- game choice area-->
+    <!-- game choice area-->
     <section class="choices">
         <figure class="choice" id="rock">
             <img src="assets/images/rock.png" alt="Rock">
@@ -37,14 +37,16 @@
             <img src="assets/images/scissor.png" alt="scissor">
         </figure>
     </section>
-<!--reset buttom -->
-    <section class="resets">
-        <button onclick="reset()">Restart</button>
+    <section>
+        <div class="restartSection">
+            <button onclick="resetScores()" id="restart" class="restart-btn">Reset scores</button>
+        </div>
     </section>
-<!-- footer and rules-->
+    <!-- footer-->
     <footer>
-            <a href="https://github.com/5undel" target="_blank"><img class="github-link" src="assets/images/github.png" alt="github"></a>
+        <a href="https://github.com/5undel" target="_blank"><img class="github-link" src="assets/images/github.png" alt="github"></a>
     </footer>
-<script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
