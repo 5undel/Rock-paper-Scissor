@@ -30,9 +30,10 @@ __Features__
 ### TEST
 - HTML
   - No errors were found when passing through the validator 
-  - Two warning where found and will be left not to fix.
+  - Tree warning where found and will be left not to fix.
   ![image](document/html-vali-rps.png)
 - CSS 
   - No errors were found when passing through the validator 
   ![image](document/css-vali-rps.png)
+  
 
