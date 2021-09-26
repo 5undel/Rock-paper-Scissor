@@ -11,6 +11,13 @@ __Features__
  - header
     - Is featured at the top whit the name of the game: Rock Paper Scissor, in a clean and simple way.
     - the user can read in the popup window the rules of the game.
+    ![image](document/header.png)
+
+- popup
+    - The popup area of the ruls make it easy for the user to see the rules
+
+    ![image](document/popup.png) ![image](document/alertbox.png)
+
 
 - scoreborad
     - The scoreboard is an easy way to see the scores for the user and computer. The user is on the left side and the computer on the right.
@@ -28,13 +35,13 @@ __Features__
  - In the footer is a link that the user can click to open a new tab to the creator github.
  ![image](document/link.png)
  
-### DESIGN
+# DESIGN
 - Appearance
   - The site has a clean look with a white background color.
 - Print
   - The font-text is Times New Roman for a clean look and easy to read.
 
-### TEST
+# TEST
 - HTML
   - No errors were found when passing through the validator 
   - Tree warning where found and will be left not to fix.
@@ -44,7 +51,7 @@ __Features__
   ![image](document/css-vali-rps.png)
 
 
-### Wireframe
+# Wireframe
 
 - desktop
     ![image](document/rps-w.png)

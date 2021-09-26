@@ -69,14 +69,20 @@ function game(userChoice) {
             break;
     }
 }
-
+//restart score
 function resetScores() {
     document.getElementById('user-score').innerText = 0;  
     document.getElementById('computer-score').innerText = 0;
     userScore = 0;
     computerScore = 0;
- }
+}
 
+//popup window 
+document.getElementById("popup").addEventListener("click", alertBox);
+
+function alertBox() {
+    alert("Rock beats Scissors, Scissor beats Paper, Paper beats Rock");
+}
 main();
 
 function main() {
