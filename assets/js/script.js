@@ -77,7 +77,7 @@ function resetScores() {
     document.getElementById('computer-score').innerText = 0;
     userScore = 0;
     computerScore = 0;
-    resultDiv.innerHTML ="Make Your Move";
+    resultDiv.innerHTML = "Make Your Move";
 }
 
 //popup window 

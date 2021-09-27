@@ -41,7 +41,7 @@ __Features__
 - Appearance
   - The site has a clean look with a off-white background color.
 
-- color scheme
+- color scheme [link](https://coolors.co/f5f5f5-ffa500-004aad)
 
   ![image](document/color.png)
 
