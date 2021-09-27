@@ -27,14 +27,14 @@ __Features__
 - Game option
     - The game options are easy to choose from. And when hover over the size change to smaller and the border gets orange to make it easeyer fot the user to see witch move they choos.
     - The winner is shown over the game options with a easy to read text that shows if the player is the winner or the computer, or if it is a draw.
-     ![image](document/r-p-s.png)
+    ![image](document/r-p-s.png)
 
     - the user can easely restart the game whit the restar button.
 
 - Footer
- - In the footer is a link that the user can click to open a new tab to the creator github.
+    - In the footer is a link that the user can click to open a new tab to the creator github.
 
- ![image](document/link.png)
+    ![image](document/link.png)
  
 
 # DESIGN
@@ -45,22 +45,46 @@ __Features__
 
 # TEST
 - HTML
-  - No errors were found when passing through the validator 
-  - Tree warning where found and will be left not to fix.
-  ![image](document/html-vali-rps.png)
+     - No errors were found when passing through the validator 
+    - Tree warning where found and will be left not to fix.
+![image](document/html-vali-rps.png)
 - CSS 
-  - No errors were found when passing through the validator 
-  ![image](document/css-vali-rps.png)
+    - No errors were found when passing through the validator 
+![image](document/css-vali-rps.png)
 
 - Lighthosue
-  ![image](document/lighthouse-test.png)
+
+![image](document/lighthouse-test.png)
+
+- Contrast
+
+![image](document/contrast-grid.png)
+
+# Deployment
+
+This project has been deployed to GitHub Pages.
+From the repository, I went to the "Settings" tab and selected "Pages" from the sub-menu.
+Once there, I selected the "main" branch from the dropdown, and then clicked the Save button.
+The deployed site can be found [here](https://5undel.github.io/Rock-paper-Scissor/).
+​​
+For local deployment, if you would like to make a clone of this repository, you can type the following command in your terminal:
+`git clone https://github.com/5undel/Rock-paper-Scissor`
+
+Alternatively, if you are using Gitpod, you can simply click on the green Gitpod button at the top of the repository, and this will create a new workspace in your Gitpod account.
+This [link](https://gitpod.io/#https://github.com/5undel/Rock-paper-Scissor) will do the same thing for you, if you do not see the green Gitpod button.
+
+# Credits
+    
+  - Image for the game is taken from [here](https://dev.to/soniarpit/rock-paper-scissor-in-c-65b)
 
 
 # Wireframe
 
 - desktop
-    ![image](document/rps-w.png)
+
+![image](document/rps-w.png)
 
 - mobile
-    ![image](document/m-rps-w.png)
+
+![image](document/m-rps-w.png)
 
