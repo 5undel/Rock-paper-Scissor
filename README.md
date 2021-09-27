@@ -70,7 +70,7 @@ __Features__
 
 ![image](document/contrast-grid.png)
 
-## responsibility
+## Responsiveness & Browser Compatibility
 
  - Chrome tested in desktop format
   ![image](document/chrome.png)
@@ -87,10 +87,10 @@ This project has been deployed to GitHub Pages.
 From the repository, I went to the "Settings" tab and selected "Pages" from the sub-menu.
 Once there, I selected the "main" branch from the dropdown, and then clicked the Save button.
 
-The deployed site can be found [here](https://5undel.github.io/Rock-paper-Scissor/).
-​​
-For local deployment, if you would like to make a clone of this repository, you can type the following command in your terminal:
-`git clone https://github.com/5undel/Rock-paper-Scissor`
+ The deployed site can be found [here](https://5undel.github.io/Rock-paper-Scissor/). 
+ 
+ For local deployment, if you would like to make a clone of this repository, you can type the following command in your terminal:
+  `git clone https://github.com/5undel/Rock-paper-Scissor`
 
 Alternatively, if you are using Gitpod, you can simply click on the green Gitpod button at the top of the repository, and this will create a new workspace in your Gitpod account.
 This [link](https://gitpod.io/#https://github.com/5undel/Rock-paper-Scissor) will do the same thing for you if you do not see the green Gitpod button.
