@@ -12,11 +12,11 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-  }
-  
-  main {
+}
+
+main {
     flex-grow: 1;
-  }
+}
 
 /*header style*/
 header {
@@ -157,7 +157,7 @@ button:hover {
 footer {
     width: 100%;
     background-color: whitesmoke;
-   
+
 }
 
 /*Link to github style*/
