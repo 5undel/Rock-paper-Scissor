@@ -1,5 +1,5 @@
 # Rock Paper Scissor 
-This website has been created for those looking to play the timeless classic game of rock, paper, scissors. The game is a pure game of chance and is easy to grasp. For those who need further information rules are provided in the index page.
+This website has been created for those looking to play the timeless classic game of rock, paper, scissors. The game is a pure game of chance and is easy to grasp. For those who need further information rules are provided on the index page.
 
 # UX
  - As a first-time user on the page, I want to be able to easily play the game.
@@ -9,50 +9,60 @@ This website has been created for those looking to play the timeless classic gam
 __Features__
 
  - header
-    - Is featured at the top whit the name of the game: Rock Paper Scissor, in a clean and simple way.
+    - Is featured at the top whit the name of the game: Rock Paper Scissor, cleanly and simply.
     - the user can read in the popup window the rules of the game.
     ![image](document/header.png)
 
 - popup
-    - The popup area of the ruls make it easy for the user to see the rules
+    - The popup area of the rules make it easy for the user to see the rules
 
     ![image](document/popup.png) ![image](document/alertbox.png)
 
 
-- scoreborad
+- scoreboard
     - The scoreboard is an easy way to see the scores for the user and computer. The user is on the left side and the computer on the right.
     - The scoreboard has a clean look at the top center whit a good contrast for the text color and the background color. 
     ![image](document/scorebord.png)
 
 - Game option
-    - The game options are easy to choose from. And when hover over the size change to smaller and the border gets orange to make it easeyer fot the user to see witch move they choos.
-    - The winner is shown over the game options with a easy to read text that shows if the player is the winner or the computer, or if it is a draw.
+    - The game options are easy to choose from. And when hover over the size change to smaller and the border gets orange to make it easier for the user to see which movie they choose.
+    - The winner is shown over the game options with an easy-to-read text that shows if the player is the winner or the computer, or if it is a draw.
     ![image](document/r-p-s.png)
 
-    - the user can easely restart the game whit the restar button.
+    - The user can easily restart the game with the restart button.
 
 - Footer
-    - In the footer is a link that the user can click to open a new tab to the creator github.
+    - In the footer is a link that the user can click to open a new tab to the creator GitHub.
 
     ![image](document/link.png)
  
 
 # DESIGN
 - Appearance
-  - The site has a clean look with a white background color.
+  - The site has a clean look with a off-white background color.
+
+- color scheme
+
+  ![image](document/color.png)
+
 - Print
   - The font-text is Times New Roman for a clean look and easy to read.
+
 
 # TEST
 - HTML
      - No errors were found when passing through the validator 
-    - Tree warning where found and will be left not to fix.
+    - Three accepted warning where found and will be left not to fix.
 ![image](document/html-vali-rps.png)
 - CSS 
     - No errors were found when passing through the validator 
 ![image](document/css-vali-rps.png)
 
-- Lighthosue
+-Javascript
+
+![image]()
+
+- Lighthouse
 
 ![image](document/lighthouse-test.png)
 
@@ -65,17 +75,20 @@ __Features__
 This project has been deployed to GitHub Pages.
 From the repository, I went to the "Settings" tab and selected "Pages" from the sub-menu.
 Once there, I selected the "main" branch from the dropdown, and then clicked the Save button.
+
 The deployed site can be found [here](https://5undel.github.io/Rock-paper-Scissor/).
 ​​
 For local deployment, if you would like to make a clone of this repository, you can type the following command in your terminal:
 `git clone https://github.com/5undel/Rock-paper-Scissor`
 
 Alternatively, if you are using Gitpod, you can simply click on the green Gitpod button at the top of the repository, and this will create a new workspace in your Gitpod account.
-This [link](https://gitpod.io/#https://github.com/5undel/Rock-paper-Scissor) will do the same thing for you, if you do not see the green Gitpod button.
+This [link](https://gitpod.io/#https://github.com/5undel/Rock-paper-Scissor) will do the same thing for you if you do not see the green Gitpod button.
 
 # Credits
     
   - Image for the game is taken from [here](https://dev.to/soniarpit/rock-paper-scissor-in-c-65b)
+
+  - Tutorial for the switch statement [here](https://www.w3schools.com/js/js_switch.asp)
 
 
 # Wireframe
@@ -87,4 +100,3 @@ This [link](https://gitpod.io/#https://github.com/5undel/Rock-paper-Scissor) wil
 - mobile
 
 ![image](document/m-rps-w.png)
-

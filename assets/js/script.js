@@ -1,8 +1,8 @@
 /* jshint esversion: 8 */
 
 //cashing the Dom for future use
-userScore = 0;
-computerScore = 0;
+let userScore = 0;
+let computerScore = 0;
 const userScoreSpan = document.getElementById("user-score");
 const computerScoreSpan = document.getElementById("computer-score");
 const resultDiv = document.querySelector(".result > p");
@@ -73,7 +73,7 @@ function game(userChoice) {
 document.getElementById("restart").addEventListener("click", resetScores);
 
 function resetScores() {
-    document.getElementById('user-score').innerText = 0;  
+    document.getElementById('user-score').innerText = 0;
     document.getElementById('computer-score').innerText = 0;
     userScore = 0;
     computerScore = 0;
@@ -89,15 +89,15 @@ main();
 
 function main() {
 
-    rockDiv.addEventListener('click', function() {
+    rockDiv.addEventListener('click', function () {
         game("rock");
     });
 
-    paperDiv.addEventListener('click', function() {
+    paperDiv.addEventListener('click', function () {
         game("paper");
     });
 
-    scissorDiv.addEventListener('click', function() {
+    scissorDiv.addEventListener('click', function () {
         game("scissor");
     });
 }
