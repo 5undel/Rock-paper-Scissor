@@ -72,13 +72,13 @@ __Features__
 
 ## responsibility
 
- - Chrome
+ - Chrome tested in desktop format
   ![image](document/chrome.png)
 
-  - Firefox
+  - Firefox tested in tablet format
   ![image](document/firefox.png)  
 
-  - Edge
+  - Edge tested in mobile format
    ![image](document/edge.png)  
 
 # Deployment
