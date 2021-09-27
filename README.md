@@ -50,17 +50,17 @@ __Features__
 
 
 # TEST
-- HTML
+- HTML [HTML](https://validator.w3.org/#validate_by_uri)
      - No errors were found when passing through the validator 
     - Three accepted warning where found and will be left not to fix.
 ![image](document/html-vali-rps.png)
-- CSS 
+- CSS [CSS](https://jigsaw.w3.org/css-validator/#validate_by_uri)
     - No errors were found when passing through the validator 
 ![image](document/css-vali-rps.png)
 
--Javascript
-
-![image]()
+- Javascript [JavaScript](https://jshint.com/)
+    - No errors were found when passing through the validator
+![image](document/js-vali.png)
 
 - Lighthouse
 
@@ -69,6 +69,17 @@ __Features__
 - Contrast
 
 ![image](document/contrast-grid.png)
+
+## responsibility
+
+ - Chrome
+  ![image](document/chrome.png)
+
+  - Firefox
+  ![image](document/firefox.png)  
+
+  - Edge
+   ![image](document/edge.png)  
 
 # Deployment
 
@@ -89,6 +100,8 @@ This [link](https://gitpod.io/#https://github.com/5undel/Rock-paper-Scissor) wil
   - Image for the game is taken from [here](https://dev.to/soniarpit/rock-paper-scissor-in-c-65b)
 
   - Tutorial for the switch statement [here](https://www.w3schools.com/js/js_switch.asp)
+
+  - Icon to the Github link if from [link](https://www.flaticon.com/search?word=github&style=all&order_by=4&type=icon)
 
 
 # Wireframe
